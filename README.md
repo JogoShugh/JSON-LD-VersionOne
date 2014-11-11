@@ -2,7 +2,13 @@
 
 JSON-LD is an emerging standard for web APIs. Don't take my word for it. [Read all about it here](http://json-ld.org).
 
-I want to explore what it would take to support this for the VersionOne rest-1.v1 and query.v1 APIs.
+I want to explore what it would take to support this for the VersionOne rest-1.v1 1 APIs. I'm not sure where to really start. We have an existing endpoint, `meta.v1` that serves up XML or JSON based information about the physical schema for a given entity (we call them Asset). But, all the samples I've seen for JSON-LD have a `@context` that resolves individual members ultimately to some pre-existing schema.org document. I don't know if this is the right thing for us, given that many of our users operate our software on networks that cannot resolve external addresses.
+
+I thought I'd need to translate our current meta into JSON-LD format for contexts / schemas, but does that mean RDF? Does it require that I actual resolve to those public addresses, or can we use our own definitions? 
+
+Any ideas are much appreciated!
+
+Summary information about our current API below:
 
 # Summary
 
