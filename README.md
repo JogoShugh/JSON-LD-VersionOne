@@ -1,6 +1,6 @@
 # JSON-LD-VersionOne
 
-JSON-LD is an emerging standard for web APIs. Don't take my word for it. Google it.
+JSON-LD is an emerging standard for web APIs. Don't take my word for it. [Read all about it here](http://json-ld.org).
 
 I want to explore what it would take to support this for the VersionOne rest-1.v1 and query.v1 APIs.
 
